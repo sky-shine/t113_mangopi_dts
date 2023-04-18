@@ -22,14 +22,14 @@ To support Mangopi MQ-Dual, one more step is needed to be done.
 ## Download this repo and go to root of Tina Linux
 
 ``` sh
-git@github.com:sky-shine/t113_mangopi_dts.git
+git clone git@github.com:sky-shine/t113_mangopi_dts.git
 ```
 ## Then place files to SDK
 
 ``` sh
 cp -r t113_mangopi_dts/device/config/chips/t113/configs/mq_r device/config/chips/t113/configs
 
-cp -r t113_mangopi_dts/target/allwinner/t113-mq_r/ target/allwinner
+cp -r t113_mangopi_dts/target/allwinner/t113-mq_r target/allwinner
 
 #delete board file folder
 rm -rf t113_mangopi_dts
