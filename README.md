@@ -34,6 +34,14 @@ cp -r t113_mangopi_dts/target/allwinner/t113-mq_r target/allwinner
 #delete board file folder
 rm -rf t113_mangopi_dts
 ``` 
+
+## Go to lichee/linux-5.4 to add wifi driver:
+``` sh
+cd lichee/linux-5.4
+git apply add_rtl8189_rtl8723.patch
+#go to root of Tinalinux
+cd ../../
+```
 ## Now run:
 
 ``` sh
