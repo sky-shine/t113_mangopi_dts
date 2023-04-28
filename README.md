@@ -60,3 +60,5 @@ Some package changes might be useful...
 [change sockets from /etc/wifi to /var](https://github.com/mangopi-sbc/tina-package/commit/4a81e6d966dec48163d68ec35942d5fc1ef94e87)
 
 [change the endev to event2](https://github.com/mangopi-sbc/tina-package/commit/5fc4928fb92380939a024b02127c8715d74212db)
+
+[add t113 can driver](https://debugdump.com/topic/1926/)
