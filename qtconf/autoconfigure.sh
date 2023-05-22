@@ -1,0 +1,70 @@
+#!/bin/sh
+export STAGING_DIR=/mnt/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/arm-openwrt-linux-muslgnueabi/bin/
+./configure \
+-prefix /mnt/opt/qt5.12.9-arm-t113 \
+-opensource \
+-confirm-license \
+-release \
+-strip \
+-shared \
+-xplatform linux-arm-gnueabi-g++ \
+-optimized-qmake \
+-c++std c++11 \
+--rpath=no \
+-pch \
+-skip qt3d \
+-skip qtactiveqt \
+-skip qtandroidextras \
+-skip qtcanvas3d \
+-skip qtconnectivity \
+-skip qtdatavis3d \
+-skip qtdoc \
+-skip qtgamepad \
+-skip qtlocation \
+-skip qtmacextras \
+-skip qtnetworkauth \
+-skip qtpurchasing \
+-skip qtremoteobjects \
+-skip qtscript \
+-skip qtscxml \
+-skip qtsensors \
+-skip qtspeech \
+-skip qtsvg \
+-skip qttools \
+-skip qttranslations \
+-skip qtwayland \
+-skip qtwebengine \
+-skip qtwebview \
+-skip qtwinextras \
+-skip qtx11extras \
+-skip qtxmlpatterns \
+-make libs \
+-make examples \
+-nomake tools -nomake tests \
+-gui \
+-widgets \
+-dbus-runtime \
+--glib=no \
+--iconv=no \
+--pcre=qt \
+--zlib=qt \
+-no-openssl \
+--freetype=qt \
+--harfbuzz=qt \
+-no-opengl \
+-linuxfb \
+--xcb=no \
+-tslib \
+--libpng=qt \
+--libjpeg=qt \
+--sqlite=qt \
+-plugin-sql-sqlite \
+-I/mnt/opt/tslib-t113/include \
+-L/mnt/opt/tslib-t113/lib \
+-plugin-sql-sqlite \
+-I/mnt/Tina-Linux/out/t113-mq_r/staging_dir/target/usr/include/ \
+-I/mnt/Tina-Linux/out/t113-mq_r/staging_dir/target/usr/include/allwinner/ \
+-I/mnt/Tina-Linux/out/t113-mq_r/staging_dir/target/usr/include/allwinner/include/ \
+-L/mnt/Tina-Linux/out/t113-mq_r/staging_dir/target/usr/lib/ \
+-recheck-all
+
