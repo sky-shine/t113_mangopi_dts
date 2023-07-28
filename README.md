@@ -1,9 +1,13 @@
+# ***Tina Linux SDK for D1-H is not available now!
+This repo may be updated after new opensource SDK being released.
+
+It says that new opensource SDK will be released at new site, but I don't know when and where the opensource SDK will be.
+
+# ***Steps as follows is out of date!
+
 Added mangopi-sbc MQ Dual board level files for Tina Linux SDK D1-H
 
 Copy board level files from mangopi: https://github.com/mangopi-sbc/Tina-Linux
-
-
-# USE
 
 ## First: download and install Tina Linux SDK for D1-H
 
