@@ -1,9 +1,11 @@
-# ***Tina Linux SDK for D1-H is not available now!
-This repo may be updated after new opensource SDK being released.
+# ***To be updated...
 
-It says that new opensource SDK will be released at new site, but I don't know when and where the opensource SDK will be.
+Now opensource SDK is released at awol and NDA SDK is released at allwinnertech.
+So D1-H SDK is not available at allwinnertech now.
 
-# ***Steps as follows is out of date!
+Go to awol to download D1-H SDK: https://bbs.aw-ol.com/topic/3947/
+
+# *** Following Steps have not been checked yet***
 
 Added mangopi-sbc MQ Dual board level files for Tina Linux SDK D1-H
 
@@ -11,7 +13,9 @@ Copy board level files from mangopi: https://github.com/mangopi-sbc/Tina-Linux
 
 ## First: download and install Tina Linux SDK for D1-H
 
-Tina Linux SDK install tutorial: https://d1.docs.aw-ol.com/study/study_3getsdk/
+~~Tina Linux SDK install tutorial: https://d1.docs.aw-ol.com/study/study_3getsdk/~~
+
+Go to awol to download D1-H SDK: https://bbs.aw-ol.com/topic/3947/
 
 Another way to download SDK: https://bbs.aw-ol.com/topic/1034/
 
