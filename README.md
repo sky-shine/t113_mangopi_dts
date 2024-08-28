@@ -92,3 +92,14 @@ https://github.com/mangopi-sbc/tina-spl-pub
 ### Available SDK for mangopi t113:
 BaiduNetdisk download link: https://bbs.aw-ol.com/topic/2596/
 
+### TinaAddon's arm-toolchains.tar.gz now is not available
+
+possible alternative:
+
+mv gcc-arm-none-eabi-8-2019-q3-update.tar.xz ./lichee/brandy-2.0/tools/toolchain/
+
+mv gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi.tar.xz ./lichee/brandy-2.0/tools/toolchain/
+
+and then change toolchain config
+
+
