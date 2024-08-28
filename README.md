@@ -5,7 +5,7 @@ So D1-H SDK is not available at allwinnertech now.
 
 Go to awol to download D1-H SDK: https://bbs.aw-ol.com/topic/3947/
 
-# *** Following Steps have not been checked yet***
+# *** Following Steps have not been checked yet ***
 
 Added mangopi-sbc MQ Dual board level files for Tina Linux SDK D1-H
 
@@ -70,3 +70,25 @@ Some package changes might be useful...
 [change the endev to event2](https://github.com/mangopi-sbc/tina-package/commit/5fc4928fb92380939a024b02127c8715d74212db)
 
 [add t113 can driver](https://debugdump.com/topic/1926/)
+
+### You may find forked repo on github
+
+Here's the original repos:
+
+Patch for AWOL D1-H sdk to support t113: https://github.com/YuzukiHD/TinaAddons
+
+Main repo for mangopi t113 TinaLinux SDK: https://github.com/mangopi-sbc/Tina-Linux
+
+Submodules for mangopi t113 TinaLinux SDK:
+
+https://github.com/mangopi-sbc/tina-u-boot-2018
+
+https://github.com/mangopi-sbc/tina-linux-5.4
+
+https://github.com/mangopi-sbc/tina-package
+
+https://github.com/mangopi-sbc/tina-spl-pub
+
+### Available SDK for mangopi t113:
+BaiduNetdisk download link: https://bbs.aw-ol.com/topic/2596/
+
